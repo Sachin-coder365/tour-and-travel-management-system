@@ -1,0 +1,30 @@
+/* ADD TOUR CUSTOM STYLES */
+bg-tael , .btn-teal{
+    background-color: #0c5460 ! important;
+
+}
+
+text-teal{
+    color: #0c5460 !important;
+}
+.carousel carousal-indicators li{
+    width: .30rem;
+    height: .5rem;
+    border-radius: 5%;
+}
+
+.carousel-caption{
+    bottom: 200px;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
